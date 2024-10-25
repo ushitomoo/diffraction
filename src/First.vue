@@ -50,7 +50,7 @@
     function plus(){
         console.log("plus");
         m.value++;
-        this.material.uniforms.N.value=m.value;
+        material.uniforms.N.value=m.value;
         renderer.render(scene, camera);
     }
 </script>
